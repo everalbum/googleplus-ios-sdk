@@ -8,6 +8,8 @@ Pod::Spec.new do |s|
   s.author       = 'Google Inc.'
   s.platform     = :ios
 
+  s.source       = { :git => "https://github.com/Everalbum/googleplus-ios-sdk.git" }
+
   s.source_files = 'OpenSource/**/*'
   
   s.requires_arc = false
