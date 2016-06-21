@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = 'OpenSource/**/*'
   
   s.requires_arc = false
-
+  s.ios.deployment_target = "8.0"
   s.frameworks   = 'Security', 'SystemConfiguration', 'AssetsLibrary', 'Foundation', 'CoreLocation', 'CoreMotion', 'CoreGraphics', 'CoreText', 'MediaPlayer', 'UIKit', 'AddressBook'
 end
